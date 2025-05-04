@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            height: 60px;
+            background-color: bisque;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        nav {
+            height: 10vh;
+            width: 100%;
+            background-color: azure;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            background-color: burlywood;
+            width: 33%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        nav a:hover {
+            background-color: cornflowerblue;
+        }
+
+        #news {
+            background-color: beige;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #news h2 {
+            margin: 30px;
+            font-size: 50px;
+        }
+
+        #news p {
+            font-size: 20px;
+            line-height: 50px;
+        }
+
+        #images {
+            background-color: coral;
+            width: 100%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #images h2 {
+            margin: 30px;
+            font-size: 30px;
+        }
+
+        #videos {
+            background-color: rgb(255, 229, 168);
+            width: 100%;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #videos h2 {
+            margin: 30px;
+            font-size: 30px;
+        }
+
+        #images img {
+            margin: 20px;
+        }
+
+        #videos video {
+            width: 400px;
+            height: 400px;
+            margin: 20px;
+        }
+
+        footer {
+            height: 150px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer p {
+            font-size: 25px;
+            
+        }
+    </style>
+</head>
+<body>
+    
+
+  <h1>Chào mừng đến với trang cá nhân của tui</h1>
+
+  <nav>
+      <a href="#news">Tin nóng</a>
+      <a href="#images">Hình ảnh</a>
+      <a href="#videos">Video nổi bật</a>
+  </nav>
+  
+  <section id="news">
+    <h2>Tin nóng</h2>
+    <p>Bangkok, Thailand
+        CNN
+        <br>
+        -It was still early in the morning when the crowd of sleepy students – all in matching uniforms and identical neat hairstyles – lined up for a daily gathering by the flagpole of their Bangkok high school.
+        <br>
+        -Eighth grader Baramee Chaovawanich was among the 3,600 students in attendance as teachers walked through each row, examining every teenager in a monthly spot check of their dress code compliance and appearances.
+        <br>
+        -Then, a teacher pointed at Chaovawanich, who goes by his nickname “Khao Klong” — indicating his hair was too long. Mortified, the boy was forced to step forward and have his head partially shaved in front of the whole school, with the teacher deliberately leaving the haircut unfinished for him to wear for the rest of the day.
+        <br>
+        -“There was a feeling of shame, like a child being singled out, made into a joke, isolated, and having their hair shaved, making them look ugly,” said Khao Klong, now 20 and at university. He still vividly remembers walking back into class afterwards, where “everyone turned to me and burst into laughter.”</p>
+  </section>
+
+  <section id="images">
+    <h2>Hình ảnh</h2>
+    <img src="hinh1.jpg" alt="Ảnh đẹp" width="300">
+  </section>
+
+  <section id="videos">
+    <h2>Video nổi bật</h2>
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <footer>
+    <p>Tác giả: Nguyễn Văn Tui - Ngày xuất bản: 04/05/2025</p>
+  </footer>
+
+
+</body>
+</html>
